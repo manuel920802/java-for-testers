@@ -76,8 +76,8 @@ public class WhenWorkingWithMaps {
         fruitMap.put("green", 6.0);
         fruitMap.put("blue", 5.0);
 
-        double numberOfRedApples = fruitMap.get("Apple");
+        double priceOfRedApples = fruitMap.get("Apple");
 
-        System.out.println("Price per Apple " + numberOfRedApples);
+        System.out.println("Price per Apple " + priceOfRedApples);
     }
 }
